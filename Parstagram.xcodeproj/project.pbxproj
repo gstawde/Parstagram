@@ -16,6 +16,7 @@
 		D40C28E4252678A6007C9396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40C28E2252678A6007C9396 /* LaunchScreen.storyboard */; };
 		D40C28EF252678A6007C9396 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C28EE252678A6007C9396 /* ParstagramTests.swift */; };
 		D40C28FA252678A6007C9396 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C28F9252678A6007C9396 /* ParstagramUITests.swift */; };
+		D40E8F0725300E9200787932 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E8F0625300E9200787932 /* CommentCell.swift */; };
 		D464732A2526817B000D1EF5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46473292526817B000D1EF5 /* LoginViewController.swift */; };
 		D464732F25268184000D1EF5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464732E25268184000D1EF5 /* FeedViewController.swift */; };
 		D464733425268D87000D1EF5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464733325268D87000D1EF5 /* CameraViewController.swift */; };
@@ -60,6 +61,7 @@
 		D40C28F5252678A6007C9396 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40C28F9252678A6007C9396 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		D40C28FB252678A6007C9396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40E8F0625300E9200787932 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		D46473292526817B000D1EF5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D464732E25268184000D1EF5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		D464733325268D87000D1EF5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				D464732E25268184000D1EF5 /* FeedViewController.swift */,
 				D464733325268D87000D1EF5 /* CameraViewController.swift */,
 				D4E38E5F2526EC220046488D /* PostCell.swift */,
+				D40E8F0625300E9200787932 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				D464732F25268184000D1EF5 /* FeedViewController.swift in Sources */,
 				D40C28DA252678A4007C9396 /* SceneDelegate.swift in Sources */,
 				D4E38E602526EC220046488D /* PostCell.swift in Sources */,
+				D40E8F0725300E9200787932 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
